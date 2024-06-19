@@ -30,7 +30,7 @@ This repository also hosts the `.stl` files for the skull models used for benchm
 
 To add new model results:
 1. Decide on a name for the model, e.g., `NEWMODEL` and add this to the list `intercomparison/getModelNames`.
-1. Create a `NEWMODEL` folder in the downloaded results (see above). Add the model results to this folder following the naming convention, e.g., `PH1-BM1-SC1-NEWMODEL.mat`.
+1. Create a `NEWMODEL` folder in the downloaded results (see above). Add the model results to this folder following the naming convention, e.g., `PH1-BM1-SC1_NEWMODEL.mat`.
 1. To compare results for one benchmark, call `compareTwo` as outlined above. 
 1. To re-generate the intercomparison results with the new model, run `processAll`.
 
